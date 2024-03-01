@@ -1,0 +1,14 @@
+.apresentacao {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    gap: 5.125rem;
+}
+
+@media (max-width: 1023px) {
+    .apresentacao {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}

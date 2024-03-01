@@ -1,0 +1,13 @@
+.link {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+@media (max-width: 1023px) {
+    .link {
+        padding-bottom: 15%;
+    }
+}

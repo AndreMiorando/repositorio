@@ -1,0 +1,15 @@
+.rodape {
+    background-color: #22d4fd;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 1023px) {
+    .rodape {
+        font-size: 1.125rem;
+    }    
+}

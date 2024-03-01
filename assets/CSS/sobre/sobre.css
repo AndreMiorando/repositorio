@@ -1,0 +1,13 @@
+.sobre {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+@media (max-width: 1200px) {
+    .sobre {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,19 @@
+.link__botao {
+    border: 2px solid #22D4FD;
+    border-radius: 0.5rem;
+    color: #f6f6f6;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+}
+
+.link__botao:hover {
+    background-color: #272727;
+}

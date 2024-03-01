@@ -1,0 +1,12 @@
+.sobre__imagem {
+    border: 3px solid #22d4fd;
+    border-radius: 1rem;
+    box-shadow: 1.125rem 1.125rem 1.125rem #22D4FD;
+    width: 40%;
+}
+
+@media (max-width: 1023px) {
+    .sobre__imagem {
+        width: 80%;     
+    }
+}

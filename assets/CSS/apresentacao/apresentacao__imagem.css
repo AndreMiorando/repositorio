@@ -1,0 +1,12 @@
+.apresentacao__imagem {
+    border: 3px solid #22D4FD;
+    border-radius: 1rem;
+    box-shadow: 1.125rem 1.125rem 1.125rem #22D4FD;
+    width: 40%;
+}
+
+@media (max-width: 1023px) {
+    .apresentacao__imagem {
+        width: 80%;     
+    }
+}

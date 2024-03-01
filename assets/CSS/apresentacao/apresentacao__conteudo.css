@@ -1,0 +1,12 @@
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 50%;
+}
+
+@media (max-width: 1023px) {
+    .apresentacao__conteudo {
+        width: auto;
+    }
+}

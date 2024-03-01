@@ -1,0 +1,11 @@
+.sobre__descricao {
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1023px) {
+    .sobre__descricao {
+        padding-bottom: 15%;
+    }
+}
